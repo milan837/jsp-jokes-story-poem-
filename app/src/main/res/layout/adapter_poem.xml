@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/pattern1"
+        android:id="@+id/main_adapter_item_poem">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="One kaliea and sarks at jungle"
+            android:id="@+id/adapter_poem_title" />
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="21,432 Views"
+                android:id="@+id/adapter_poem_view" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="like 200"
+                android:id="@+id/adapter_poem_likes" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Milan shrestha"
+            android:id="@+id/adapter_poem_author" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milan shrestha"
+            android:visibility="gone"
+            android:id="@+id/adapter_poem_post_id" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="nute: android:elevation onl ynute:android:elevation only have shadow effects on the bottom side, how to make the shadow effects show on top side? have shadow effects on the bottom side, how to make the shadow effects show on top side?"
+            android:id="@+id/adapter_poem_body" />
+
+    </LinearLayout>
+
+</RelativeLayout>

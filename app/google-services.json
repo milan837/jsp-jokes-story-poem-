@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "31242305976",
+    "firebase_url": "https://jokes-story-poem.firebaseio.com",
+    "project_id": "jokes-story-poem",
+    "storage_bucket": "jokes-story-poem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31242305976:android:a456e867cac37217",
+        "android_client_info": {
+          "package_name": "com.outnative.milan.jps.jps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31242305976-qsirl4fbl7o25rc94173o0pg0n8err74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.outnative.milan.jps.jps",
+            "certificate_hash": "a644e07406b3049a4bbe3ccdb53c309bd7733043"
+          }
+        },
+        {
+          "client_id": "31242305976-1o1bfpkrlps7gbngh8v1lmdo1g5cjijg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFBzNMDKTo-bFQ3Dpc0CvTw0XMEL--yhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31242305976-1o1bfpkrlps7gbngh8v1lmdo1g5cjijg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

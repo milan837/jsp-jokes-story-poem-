@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#aaa</color>
+    <color name="colorAccent">#e4572e</color>
+
+    <color name="patten1">#36c1cd</color>
+    <color name="patten2">#251f55</color>
+    <color name="patten3">#c8144e</color>
+    <color name="patten4">#e4572e</color>
+    <color name="patten5">#ffc914</color>
+
+</resources>
